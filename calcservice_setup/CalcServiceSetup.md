@@ -37,7 +37,7 @@
          --repository=packages-python-repository \
          --location=europe
         ```
-      > *p.s. check if you have access to all the packages mentioned in [initial_setup_stoxx.md](./initial_setup_stoxx.md)*
+      > *p.s. check if you have access to all the packages mentioned in [initial_setup_stoxx.md](../initial_setup/initial_setup_stoxx.md)*
 
 4. Authenticate with Google Cloud using your iss-stoxx account
    ```bash
@@ -54,7 +54,7 @@
        - [**Latest Versions in Google Artifact Registry**](https://console.cloud.google.com/artifacts/python/artifactory-lr8qnl/europe-west4/python-primary/stxit?project=artifactory-lr8qnl)
      - After above verification run the following command to install dependencies in the root directory
       ```bash
-         pip install --force-reinstall --extra-index-url https://oauth2accesstoken:$(gcloud auth print-access-token)@europe-west4-python.pkg.dev/artifactory-lr8qnl/python-primary/simple/
+         pip install -r gui/requirements.txt --extra-index-url "https://europe-python.pkg.dev/artifactory-lr8qnl/packages-python-repository/simple/" --no-warn-script-location --trusted-host europe-python.pkg.dev
       ```
 ---
 
