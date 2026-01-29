@@ -19,7 +19,7 @@ We need to have the secrets on "europe-west4", "europe-west3" location
 
 1. Raise a PAM request to view and take a copy of secrets value
    1. Raise PAM request for "Secret Manager Admin" role
-   2. ![alt text](image.png)
+   2. ![alt text](../public/PAM-secret-manager.png)
    3. Then copy all the secret values
    4. Copying process for lower environment was stored in one note: [one note link](../public/SECRET%20MANAGER.one)
 
