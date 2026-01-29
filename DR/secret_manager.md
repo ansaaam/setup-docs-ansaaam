@@ -26,9 +26,9 @@ We need to have the secrets on "europe-west4", "europe-west3" location
 2. Delete the secrets from PROD
    1. Merge the PR on **STOXX.Platform.SecretManager**: [PR for removing secrets from PROD](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/143)
    2. For reference, similar PRs were created and merged for lower environments
-      2. DEV: [PR for removing secrets from DEV](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/139)
-      3. QA: [PR for removing secrets from QA](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/140)
-      4. UAT: [PR for removing secrets from UAT](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/142)
+      1. DEV: [PR for removing secrets from DEV](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/139)
+      2. QA: [PR for removing secrets from QA](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/140)
+      3. UAT: [PR for removing secrets from UAT](https://github.com/QontigoSTOXX/STOXX.Platform.SecretManager/pull/142)
    3. TODO: put the job name that deletes the secrets
 
 3. Create secrets using terraform
