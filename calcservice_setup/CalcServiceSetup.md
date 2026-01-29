@@ -55,6 +55,7 @@
      - After above verification run the following command to install dependencies in the root directory
       ```bash
          pip install -r gui/requirements.txt --extra-index-url "https://europe-python.pkg.dev/artifactory-lr8qnl/packages-python-repository/simple/" --no-warn-script-location --trusted-host europe-python.pkg.dev
+         pip install -r .\\requirements.txt --extra-index-url https://oauth2accesstoken:$(gcloud auth print-access-token)@europe-west4-python.pkg.dev/artifactory-lr8qnl/python-primary/simple/
       ```
 ---
 
